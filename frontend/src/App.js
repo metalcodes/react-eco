@@ -1,10 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import {Container} from 'react-bootstrap'
+import Header from './components/Header'
+import Footer from './components/Footer'
 
 function App() {
   return (
     <>
-      
+      <Header />
+      <main>
+        <Container>
+          <h1>Welcome to Thrift Shop</h1>
+        </Container>
+      </main>
+      <Footer />
     </>
   );
 }
