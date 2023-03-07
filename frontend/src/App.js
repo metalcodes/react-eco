@@ -7,9 +7,9 @@ function App() {
   return (
     <>
       <Header />
-      <main>
+      <main className='py-3'>
         <Container>
-          <h1>Welcome to Thrift Shop</h1>
+          <h1>Welcome to Shop One</h1>
         </Container>
       </main>
       <Footer />
